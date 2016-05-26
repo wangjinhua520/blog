@@ -19,4 +19,9 @@ class IndexController extends Controller {
     public function main(){
         $this->display();
     }
+    
+    public function imgtable(){
+        $this->display();
+        
+    }
 }
