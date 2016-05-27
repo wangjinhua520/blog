@@ -23,6 +23,23 @@ $(function(){
 			$(this).next('ul').slideDown();
 		}
 	});
+
+
+
+    //一键清除缓存文件
+    $('#clearCache').click(function(){
+        if(confirm("确认要清除缓存？")) {
+        var $type=$('#type').val();
+        var $mess=$('#mess');
+        $.post('/blog/index.php/Admin/Index/cache',{type:$type},function(data){
+  alert("缓存清理成功");
+   });
+         }else{
+                return false;
+            }  
+    });
+
+
 })	
 </script>
 
@@ -80,7 +97,7 @@ $(function(){
         <li><cite></cite><a href="#">自定义</a><i></i></li>
         <li><cite></cite><a href="#">常用资料</a><i></i></li>
         <li><cite></cite><a href="#">信息列表</a><i></i></li>
-        <li><cite></cite><a href="#">其他</a><i></i></li>
+        <li><cite></cite><a href="<?php echo U('System/clearRuntime');?>">清除缓存</a><i></i></li>
     </ul>
     
     </dd>   
