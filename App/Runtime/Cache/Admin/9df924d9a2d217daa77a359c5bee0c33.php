@@ -5,10 +5,10 @@
 <title>信息管理系统界面</title>
 </head>
 <frameset rows="88,*" cols="*" frameborder="no" border="0" framespacing="0">
-  <frame src="/blog/index.php/Admin/Index/top.html" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
+  <frame src="/blog/index.php/Admin/Index/top" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
   <frameset cols="187,*" frameborder="no" border="0" framespacing="0">
-    <frame src="/blog/index.php/Admin/Index/left.html" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
-    <frame src="/blog/index.php/Admin/Index/main.html" name="rightFrame" id="rightFrame" title="rightFrame" />
+    <frame src="/blog/index.php/Admin/Index/left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
+    <frame src="/blog/index.php/Admin/Index/main" name="rightFrame" id="rightFrame" title="rightFrame" />
   </frameset>
 </frameset>
 <noframes><body>
