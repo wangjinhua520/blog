@@ -43,7 +43,7 @@ $(function(){
     <div class="user">
     <span>admin</span>
     <i>消息</i>
-    <b>5</b>
+    <b><?php echo ($cate); ?></b>
     </div>    
     
     </div>

@@ -20,7 +20,6 @@ define('RUNTIME_PATH',APP_PATH.'Runtime/');
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 
-
 /*
 1：在根目录下的全局index.php中加下面这行：
 

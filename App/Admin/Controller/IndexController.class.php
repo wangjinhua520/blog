@@ -14,6 +14,8 @@ class IndexController extends Controller {
     	$this->display();
     }
     public function top(){
+        $cate=M('category')->count();
+        $this->assign('cate',$cate);
     	$this->display();
     }
     public function main(){
